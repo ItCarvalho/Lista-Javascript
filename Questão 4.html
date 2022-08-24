@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Questão </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function maior(){
+            var n1 = parseFloat(document.getElementById("n1").value);
+            var n2 = parseFloat(document.getElementById("n2").value);
+            var n3 = parseFloat(document.getElementById("n3").value);
+            var n4 = parseFloat(document.getElementById("n4").value);
+            var n5 = parseFloat(document.getElementById("n5").value);
+            if(n1 =< 18){
+                alert("maior");
+            }
+            if(n1 >= 18){
+                alert("menor");
+            }
+            if(n2 =< 18){
+                alert("maior");
+            }
+            if(n2 >= 18){
+                alert("maior");
+            }
+            if(n3 =< 18){
+                alert("maior");
+            }
+            if(n3 >= 18){
+                alert("menor");
+            }
+            if(n4 =< 18){
+                alert("maior");
+            }
+            if(n4 >= 18){
+                alert("menor");
+            }
+            if(n5 =< 18){
+                alert("maior");
+            }
+            if(n5 >= 18){
+                alert("menor");
+            }
+        }
+        </script>
+        nota 1<input id="n1" type="number"></br>
+        nota 2<input id="n2" type="number"></br>
+        nota 3<input id="n3" type="number"></br>
+        nota 4<input id="n4" type="number"></br>
+        nota 5<input id="n5" type="number"></br>
+        <button onclick="maior();">Calcule</button>
+    </body>
+</html>
