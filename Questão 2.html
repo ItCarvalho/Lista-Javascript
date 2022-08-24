@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Questão 2</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function quadcub(){
+            var n1 = parseFloat(document.getElementById("n1").value);
+            var n2 = parseFloat(document.getElementById("n2").value);
+            var n3 = parseFloat(document.getElementById("n3").value);
+            var n4 = parseFloat(document.getElementById("n4").value);
+            var n5 = parseFloat(document.getElementById("n5").value);
+            var quad1 = n1**2;
+            var cub1 = n1**3
+            var quad2 = n2**2;
+            var cub2 = n2**3;
+            var quad3 = n3**2;
+            var cub3 = n3**3;
+            var quad4 = n4**2;
+            var cub4 = n4**3;
+            var quad5 = n5**2;
+            var cub5 = n5**3;
+            alert("Primeiro numero" + quad1);
+            alert("Primeiro numero" + cub1);
+            alert("segundo numero" + quad2);
+            alert("segundo numero" + cub2)
+            alert("terceiro numero" + quad3);
+            alert("terceiro numero" + cub3)
+            alert("quarto numero" + quad4);
+            alert("quarto numero" + cub4);
+            alert("quinto numero" + quad5);
+            alert("quinto numero" + cub5);
+        }
+        </script>
+        nota 1<input id="n1" type="number"></br>
+        nota 2<input id="n2" type="number"></br>
+        nota 3<input id="n3" type="number"></br>
+        nota 4<input id="n4" type="number"></br>
+        nota 5<input id="n5" type="number"></br>
+        <button onclick="quadcub();">Calcule</button>
+        
+    </body>
+</html>
