@@ -1,23 +1,23 @@
 //Calcule a média de 3 notas digitadas pelo usuário.
 
-<!DOCTYPE HTML>
+<!<!DOCTYPE HTML>
 <html>
-<head>
-    <title>Questão 1</title>
-</head>
-<body>
-    Nota 1 <input id= "n1" type="number">
-    Nota 2 <input id= "n2" type="number">
-    Nota 3 <input id= "n3" type="number">
-    <button onclick="media">Media</button>
-</body>
-<script type = "text/javascript">
-    function Media(){
-        var n1 = parseFloat(document.getElementbyId("n1").value);
-        var n2 = parseFloat(document.getElementbyId("n2").value);
-        var n3 = parseFloat(document.getElementbyId("n3").value);
-        var media = (n1 + n2 + n3)/3;
-    alert("sua media é" + media);
-    }
-</script>
+    <head>
+        <title>Questão 1</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function Media(){
+            var n1 = parseFloat(document.getElementById("n1").value);
+            var n2 = parseFloat(document.getElementById("n2").value);
+            var n3 = parseFloat(document.getElementById("n3").value);
+            var Media = ( n1 + n2 + n3)/3;
+            alert("sua media é" + Media);
+        }
+        </script>
+        nota 1<input id="n1" type="number"></br>
+        nota 2<input id="n2" type="number"></br>
+        nota 3<input id="n3" type="number"></br>
+        <button onclick="Media();">Calcule a Media</button>
+    </body>
 </html>
