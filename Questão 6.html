@@ -1,24 +1,26 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Questão 6</title>
+        <title>Questão 3</title>
     </head>
     <body>
         <script type="text/javascript">
         function inverter(){
-            var nomes=[(document.getElementById("n1").value, document.getElementById("n2").value, document.getElementById("n3").value, document.getElementById("n4").value, document.getElementById("n5").value]
-            var i
-            for(i = nome.length -1; i >= 0; i++){
-                nome += nome [i]
-            }
+            var n1 = (document.getElementById("n1").value);
+            var n2= (document.getElementById("n2").value);
+            var n3 = (document.getElementById("n3").value);
+            var n4 = (document.getElementById("n4").value); 
+           alert("ordem invertida");
+           alert("quarto" + n4);
+           alert("terceiro" + n3);
+           alert("segundo" + n2);
+           alert("primeiro" + n1);
         }
         </script>
-        nota 1<input id="n1" type="text"></br>
-        nota 1<input id="n1" type="text"></br>
-        nota 2<input id="n2" type="text"></br>
-        nota 3<input id="n3" type="text"></br>
-        nota 4<input id="n4" type="text"></br>
-        nota 5<input id="n5" type="textr"></br>
+        nome 1<input id="n1" type="text"></br>
+        nome 2<input id="n2" type="text"></br>
+        nome 3<input id="n3" type="text"></br>
+        nome 4<input id="n4" type="text"></br>
         <button onclick="inverter();">Calcule</button>
     </body>
 </html>
