@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Questão 3</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function maior(){
+            var n1 = parseFloat(document.getElementById("n1").value);
+            var n2 = parseFloat(document.getElementById("n2").value);
+            var n3 = parseFloat(document.getElementById("n3").value);
+            var n4 = parseFloat(document.getElementById("n4").value);
+            var n5 = parseFloat(document.getElementById("n5").value);
+            var max = Math.max(n1, n2, n3 ,n4,n5);
+            alert(max)
+        }
+        </script>
+        nota 1<input id="n1" type="number"></br>
+        nota 1<input id="n1" type="number"></br>
+        nota 2<input id="n2" type="number"></br>
+        nota 3<input id="n3" type="number"></br>
+        nota 4<input id="n4" type="number"></br>
+        nota 5<input id="n5" type="number"></br>
+        <button onclick="maior();">Calcule</button>
+    </body>
+</html>
